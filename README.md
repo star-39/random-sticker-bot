@@ -1,10 +1,11 @@
 # random-sticker-bot
 
-A Telegram that sends a sticker randomly from a sticker set when specific command is received.
+A Telegram bot that sends a sticker randomly from a sticker set when specific command is received.
 
 
 ## Deployment
-Build with `go build` or use pre-build container from:
+Build with `go build` or use pre-built container from:
+
  https://github.com/users/star-39/packages/container/package/random-sticker-bot
 
  Run the container with:
