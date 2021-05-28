@@ -11,8 +11,7 @@ c1=$(buildah from fedora-minimal:34)
 
 buildah copy $c1 random-sticker-bot /random-sticker-bot
 
-buildah config --cmd '' $c1
-buildah config --entrypoint "/random-sticker-bot" $c1
+buildah config --cmd '/random-sticker-bot' $c1
 
 buildah commit $c1 random-sticker-bot
 
