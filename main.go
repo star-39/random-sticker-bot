@@ -16,7 +16,7 @@ var stickers []tb.Sticker
 
 func main() {
 	STICKER_SET = os.Getenv("STICKER_SET")
-	BOT_TOKEN = os.Getenv("GROUP_ID")
+	BOT_TOKEN = os.Getenv("BOT_TOKEN")
 	COMMAND = os.Getenv("COMMAND")
 
 	if len(STICKER_SET) == 0 || len(BOT_TOKEN) == 0 || len(COMMAND) == 0 {
